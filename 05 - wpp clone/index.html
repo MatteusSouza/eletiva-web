@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Web Whatsapp clone</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </head>
+    <body>
+        <script src='script.js'></script>
+        <div class="left-block">
+            <div class="top-bar">
+                <a href="#" onclick="">
+                    <img id="self-img" src="https://avatars.githubusercontent.com/u/61070878?v=4" alt="my picture">
+                </a>
+                <h3 class="title">Conversas</h3>
+                <a href="#" onclick="">
+                    <span class="material-symbols-outlined">chat_add_on</span>
+                </a>
+                <a href="#" onclick="">
+                    <span class="material-symbols-outlined">more_vert</span>
+                </a>
+            </div>
+            <div class="chat-list-area">
+                <ul>
+                    <li>
+                        <div class="chat-item" id="item0">
+                            <a href="#" onclick="">
+                                <img id="chat-img" src="https://avatars.githubusercontent.com/u/0" alt="chat picture">
+                            </a>
+                            <div>
+                                <div class="row1">
+                                    <h4 class="item-title">User</h4>
+                                    <p>18:00</p>
+                                </div>
+                                <div class="row2">
+                                    <p class="item-last">Ultima mensagem Ultima mensagem Ultima mensagem Ultima mensagem Ultima mensagemUltima mensagem Ultima mensagem Ultima mensagem Ultima mensagem Ultima mensagem </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="chat-item" id="item1">
+                            <a href="#" onclick="">
+                                <img id="chat-img" src="https://avatars.githubusercontent.com/u/0" alt="chat picture">
+                            </a>
+                            <div>
+                                <div class="row1">
+                                    <h4 class="item-title">User 2</h4>
+                                    <p>18:00</p>
+                                </div>
+                                <div class="row2">
+                                    <p class="item-last">Ultima mensagem Ultima mensagem Ultima mensagem Ultima mensagem Ultima mensagemUltima mensagem Ultima mensagem Ultima mensagem Ultima mensagem Ultima mensagem </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-block">
+            <div class="top-bar">
+                <a href="#" onclick="">
+                    <img id="chat-img" src="https://avatars.githubusercontent.com/u/0" alt="chat picture">
+                </a>
+                <h4 class="title">User</h4>
+                <a href="#" onclick="">
+                    <span class="material-symbols-outlined">search</span>
+                </a>
+                <a href="#" onclick="">
+                    <span class="material-symbols-outlined">more_vert</span>
+                </a>
+            </div>
+            <div class="chat-area">
+                <div class="chat" id="msgs">
+                    <div class="msg">Exemplo1</div>
+                    <div class="msg">Exemplo2</div>
+                    <div class="msg">Exemplo3</div>
+                </div>    
+                <div class="input-area">
+                    <a href="#" onclick="">
+                        <span class="material-symbols-outlined">mood</span>
+                    </a>
+                    <form>
+                        <input type="text" id="msgInput">
+                    </form>
+                    <a href="#" onclick="sendMsg()">
+                        <span class="material-symbols-outlined">send</span>
+                    </a>
+                    <a href="#" onclick="alert('Microfone desabilitado')">
+                        <span class="material-symbols-outlined">mic</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 95vh;
+    background-color: #dcf8c6;
+    border: solid #aaaaaa 2px;
+}
+
+.top-bar {
+    background-color: white;
+    border-bottom: solid #bbbbbb 1px;
+    /* border-left: solid #bbbbbb 2px; */
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin: 0px;
+    padding-inline: 10px;
+    & .title {
+        flex: 2;
+        padding-inline: 10px;
+        text-align: start;
+    }
+}
+
+img {
+    /* border: solid black 1px; */
+    width: 50px;
+    border-radius: 50%;
+}
+
+#self-img {
+    width: 30px;
+}
+
+.chat-list-area {
+    /* border: solid gray 2px; */
+    height: 100%;
+}
+
+.chat-item {
+    /* border: solid red 1px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    > div {
+        /* background-color: yellow; */
+        padding-inline: 10px;
+    }
+}
+
+.row1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.row2 {
+    padding-bottom: 10px;
+    /* background-color: yellowgreen; */
+    > p {
+        overflow: hidden;
+        height: 20px;
+    }
+}
+
+.left-block{
+    background-color: white;
+    min-width: 45%;
+    overflow: hidden
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-block {
+    background-color: #ece5dd;
+    min-width: 55%;
+    /* border: blue 1px solid; */
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    > .top-bar {
+        background-color: white;
+    }
+}
+
+.chat-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px red solid; */
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 10px;
+    height: 100%;
+}
+
+.msg {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #005D4B;
+}
+
+.input-area {
+    background-color: #06625f	 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.input-area form {
+    width: 100%; 
+    > input {
+        margin-inline: 10px;
+        width: 100%;
+        padding: 4px;
+        border-radius: 4px;
+        border: 1px;
+    }
+}
+
+#item0 {
+    background-color: #005D4B;
+}
